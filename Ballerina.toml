@@ -1,0 +1,7 @@
+[package]
+org = "gihan"
+name = "invoiceservice"
+version = "0.1.0"
+
+[build-options]
+sticky = true
