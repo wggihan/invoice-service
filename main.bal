@@ -1,7 +1,7 @@
 import ballerina/http;
 
 // Configurable for external tax rate service URL
-configurable string taxRateServiceUrl = "http://localhost:8080";
+configurable string taxRateServiceUrl = "http://localhost:8080/tax";
 
 // HTTP client for external tax rate service
 http:Client taxRateClient = check new (taxRateServiceUrl);
